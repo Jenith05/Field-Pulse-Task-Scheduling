@@ -25,7 +25,7 @@
 1. **User Action:** Technician clicks "Mark as En Route" button
 2. **Frontend:** Calls `lifecycleAPI.updateStatus(jobId, 'en_route')` via Axios with JWT token
 3. **API Request:** PUT `/api/lifecycle/{jobId}/status` with authorization header
-4. **Backend:**
+4. **Backend:** 
    - Middleware validates JWT token and technician role
    - Validates status transition rules
    - Checks if technician is assigned to the job

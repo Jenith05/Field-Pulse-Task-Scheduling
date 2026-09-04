@@ -4,7 +4,7 @@
 
 - **Chose:** MongoDB with Mongoose ODM
 - **Rejected:** PostgreSQL with SQL database
-- **Why:**
+- **Why:** 
   - Flexible schema beneficial during development as requirements evolved
   - MongoDB Atlas provides easy cloud hosting with free tier
   - Mongoose provides excellent validation and middleware
