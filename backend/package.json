@@ -1,0 +1,31 @@
+{
+  "name": "takehome-15-field-service-dispatch",
+  "version": "1.0.0",
+  "description": "Picture a home-services company — plumbing, HVAC, appliance repair — sending a rotating team of a dozen or so technicians out to customer sites every day. Right now the day's jobs get handed out each morning on a paper sheet taped to the office wall, technicians call the office when they finish one job to find out what's next, and whether a technician actually has room in their day for one more job is whatever the dispatcher happens to remember off the top of their head.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "seed": "node src/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
